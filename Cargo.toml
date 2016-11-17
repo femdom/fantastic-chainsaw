@@ -1,0 +1,17 @@
+[package]
+name = "fantastic-chainsaw"
+version = "0.1.1"
+authors = ["Renat Galimov <renat2017@gmail.com>"]
+
+[dependencies.cpufreq]
+cpufreq="0.1.6"
+
+[dependencies.gtk]
+version = "0.1.0"
+features = ["v3_12"]
+
+[dependencies.gio]
+version = "~0.1"
+
+[dependencies.gtk-sys]
+version = "~0.3"
